@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose
-  .connect("mongodb+srv://ics:ics12345@cluster0.ppiur.mongodb.net/ICS", {
+  .connect("mongodb+srv://ICS:Abc123@cluster0.ks7nn.mongodb.net/ICS", {
     useUnifiedTopology: true,
     useNewUrlParser: true,
   })
