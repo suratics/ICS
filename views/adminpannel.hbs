@@ -1,0 +1,169 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Institute of commerce studies</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
+  </head>
+
+  <body>
+
+    <main>
+      <section class="section adminPannelConfirmation__section">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col col-sm-10 col-md-8 col-lg-6 mx-auto adminPannelConfirmation__section__col_1"
+            >
+              <h1>Welcome Back, Admin</h1>
+              <input type="text" id="username" placeholder="Username" />
+              <input type="text" id="password" placeholder="Password" />
+              <button class="admin__entry__btn">Check Me</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section admin__pannel__Input__section">
+        <div class="container">
+          <div class="row">
+            <div
+              class="col col-sm-12 col-md-12 col-lg-8 mx-auto admin__pannel__Input__section__COL__1"
+            >
+              <div class="admin__notes">
+                <h2>Enter Question</h2>
+                <p>This Data will be uploaded to the database enter carefully</p>
+              </div>
+              <form action="#" method="POST">
+
+                <div class="adminFormItems">
+                  <input
+                    type="text"
+                    placeholder="Enter the subject name"
+                    id="subject"
+                    name="subject"
+                  />
+                </div>
+
+                <div class="adminFormItems adminFormSelectGroups">
+                  <label for="part">Enter the part</label>
+                  <select name="part" id="part">
+                    <option value="part1">Part 1</option>
+                    <option value="part2">Part 2</option>
+                    <option value="part3">Part 3</option>
+                  </select>
+                </div>
+
+                <div class="adminFormItems adminFormSelectGroups">
+                  <label for="sections">Enter the section</label>
+                  <select name="sections" id="sections">
+                    <option value="sectiona">Section A</option>
+                    <option value="sectionb">Section B</option>
+                    <option value="sectionc">Section C</option>
+                  </select>
+                </div>
+
+                <div class="adminFormItems">
+                  <input
+                    type="text"
+                    placeholder="Enter your Question"
+                    id="question"
+                    name="question"
+                  />
+                </div>
+
+                <div class="adminFormItems">
+                  <input
+                    type="text"
+                    placeholder="Option 1"
+                    id="option1"
+                    name="option1"
+                  />
+                </div>
+
+                <div class="adminFormItems">
+                  <input
+                    type="text"
+                    placeholder="Option 2"
+                    id="option2"
+                    name="option2"
+                  />
+                </div>
+
+                <div class="adminFormItems">
+                  <input
+                    type="text"
+                    placeholder="Option 3"
+                    id="option3"
+                    name="option3"
+                  />
+                </div>
+
+                <div class="adminFormItems">
+                  <input
+                    type="text"
+                    placeholder="Option 4"
+                    id="option4"
+                    name="option4"
+                  />
+                </div>
+
+                <div class="adminFormItems">
+                  <input
+                    type="text"
+                    placeholder="Correct option"
+                    id="correctoption"
+                    name="correctoption"
+                  />
+                </div>
+
+                <div class="Admin__formBtnHolder">
+                  <button
+                    type="submit"
+                    class="admin__data__upload__btn"
+                  >Upload</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Bootstrap JS Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- IONICON LINKS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="./js/admin.js"></script>
+  </body>
+
+</html>
