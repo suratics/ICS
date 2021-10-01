@@ -7,6 +7,8 @@ const adminPannelPasswordSection = document.querySelector(
 const AdminPannelInputSection = document.querySelector(
   ".admin__pannel__Input__section "
 );
+adminPannelPasswordSection.style.display = "none";
+AdminPannelInputSection.style.display = "block";
 
 // Authenticating the admin and showing the admin pannel to real admin
 AdminBtn.addEventListener("click", () => {
