@@ -1,0 +1,106 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Institute Of Commerce Studies &mdash; Sign Up Page</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+
+  </head>
+  <style>
+    body { background-color: #339af0 !important; } p::selection, a::selection {
+    color: black !important; }
+  </style>
+
+  <body>
+
+    <section class="signUp__Area">
+      <div class="container">
+        <div class="row">
+
+          <div
+            class="col col-sm-10 col-md-8 col-lg-4 mx-auto signUp__Area__col__1"
+          >
+            <div class="signUp__Area__col__1__first__inner_DIV">
+              <h2>Sign Up</h2>
+              <p>Please fill in this form to create an account!</p>
+              <hr />
+            </div>
+
+            <form action="/" method="POST">
+
+              <div class="sign__up__form__items sign___Up__div__area__1">
+                <input type="text" name="fname" placeholder="First Name" />
+                <input type="text" name="lname" placeholder="Last Name" />
+              </div>
+              <div class="sign__up__form__items">
+                <input type="email" name="email" placeholder="Email" />
+              </div>
+              <div class="sign__up__form__items">
+                <input type="number" name="mobile" placeholder="Mobile" />
+              </div>
+
+              <div class="sign__up__form__items">
+                <input type="password" name="password" placeholder="Password" />
+              </div>
+
+              <div class="sign__up__form__items sign__up__form__Lastitems">
+                <input
+                  type="password"
+                  name="cpassword"
+                  placeholder="Confirm Password"
+                />
+              </div>
+
+              <div class="signUp__terms__and__condition__container">
+                <input type="checkbox" />
+                <p>I accept the
+                  <a href="#">terms of use</a>
+                  &
+                  <a href="#">privacy policy</a></p>
+              </div>
+
+              <div class="SignUp____btns">
+                <button class="signup___BTN" type="submit">Sign Up</button>
+              </div>
+            </form>
+          </div>
+          <p class="signUp__lastPara">Already have an account?
+            <a href="/login">login here</a></p>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- IONICON LINKS -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+
+  </body>
+
+</html>

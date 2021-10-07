@@ -1,0 +1,156 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICS &mdash; Accountancy Exam</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="./css/exam.css" />
+
+  </head>
+
+  <body>
+
+    <section class="mcq__section">
+      <div class="container">
+        <div class="row Terms__and__condition__row">
+          <div
+            class="col-11 col-sm-12 col-md-12 col-lg-12 col-xl-10 mx-auto Terms__and__condition__col"
+          >
+
+            <div class="time__and__mark">
+              <p class="Examtime">Time Allowed: 90 Minutes </p>
+              <p class="Exammark">Maximum Marks: 40 </p>
+            </div>
+
+            <h3>General Instructions: </h3>
+            <p>Read the following instructions very carefully and strictly
+              follow them:</p>
+            <ol>
+              <li>This question paper comprises three PARTS – I, II and III.
+                There are 69 questions in the question paper.
+              </li>
+              <li>Part - I -is compulsory for all candidates. </li>
+              <li>Part - II Analysis of Financial Statement and Part -III
+                Computerized Accounting. You have to attempt only one of the
+                given OPTIONS.</li>
+              <li>There is an internal choice provided in each Sections.
+                <ol type="I" class="romanTermsAndConditions">
+                  <li>
+                    Part-I, contains three Sections -A, B and C. Section A has
+                    questions from 1 to 18 and Section B has questions from 19
+                    to 36, you have to attempt any 15 questions each in both the
+                    sections.
+                  </li>
+                  <li>
+                    Part I, Section C has questions from 37 to 41. You have to
+                    attempt any four questions.
+                  </li>
+                  <li>
+                    Part II, contains two Sections – A and B. Section A has
+                    questions from 42 to 48, you have to attempt any five
+                    questions and Section B has questions from 49 to 55, you
+                    have to attempt any six questions.
+                  </li>
+                  <li>
+                    Part III, contains two Sections – A and B. Section A has
+                    questions from 56 to 62, you have to attempt any five
+                    questions and Section B has questions from 63 to 69, you
+                    have to attempt any six questions.
+                  </li>
+                </ol>
+              </li>
+              <li>All questions carry equal marks. There is no negative marking.
+              </li>
+              <li>Specific Instructions related to each Part and subdivisions
+                (Section) is mentioned clearly before the questions. Candidates
+                should read them thoroughly and attempt accordingly.</li>
+            </ol>
+            <div class="termsAcceptBtn">
+              <button class="uniqueBtn" id="termsAcceptedBtn">Accept And Proceed</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="row MCQ___ROW hidden__row">
+          <div
+            class="col col-sm-12 col-md-12 col-lg-10 col-xl-8 mx-auto mcq__section__col_1"
+          >
+            <h1>Q<span id="QuestionCount">1</span>. &nbsp;<span
+                class="question"
+              >A, B and C are partners, their partnership deed provides for
+                interest on drawings at 8% per annum. B withdrew a fixed amount
+                in the middle of every month and his interest on drawings
+                amounted to ₹4,800 at the end of the year. What was the amount
+                of his monthly drawings?</span>
+            </h1>
+            <ul>
+              <li>
+                <input type="radio" name="answer" id="A" class="answer" />
+                <label for="A" id="option1">Random</label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="B" class="answer" />
+                <label for="B" id="option2">Random</label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="C" class="answer" />
+                <label for="C" id="option3">Random</label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="D" class="answer" />
+                <label for="D" id="option4">Random</label>
+              </li>
+            </ul>
+
+            <div class="submit__mcq__btn">
+              <button id="submit" class="uniqueBtn">Submit</button>
+            </div>
+
+            <div class="showScore">
+              <div class="show__score__inner">
+                <h2>Your Score
+                  <span class="my__score">0</span>/<span
+                    class="total__questions"
+                  >0</span>
+                </h2>
+                <div class="mcq__redirectBtn__holder">
+                  <a
+                    href="/accountancyexam"
+                    class="mcq__redirectBtn playAgain"
+                  >Try Once More</a>
+                  <a href="/exam" class="mcq__redirectBtn">Start More Quiz</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="./js/AccountancyExam.js"></script>
+  </body>
+
+</html>

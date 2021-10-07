@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;600;700&family=Playfair+Display:wght@400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f8f9fa;
+  line-height: 1;
+  font-weight: 400;
+  font-family: "Lato";
+}
+.mcq__section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mcq__section .mcq__section__col_1 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 4rem;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  min-height: 50vh;
+  border-radius: 1rem;
+}
+
+.mcq__section .mcq__section__col_1 h1 {
+  line-height: 1.5;
+  letter-spacing: -1px;
+  padding: 2rem;
+}
+
+.mcq__section .mcq__section__col_1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  padding: 0rem 3rem 2rem 3rem;
+}
+
+.mcq__section .mcq__section__col_1 ul li {
+  list-style: none;
+}
+
+.mcq__section .mcq__section__col_1 ul li input {
+  height: 20px;
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.mcq__section .mcq__section__col_1 ul li label {
+  font-size: 1.6rem;
+  position: relative;
+  top: -0.4rem;
+}
+
+.submit__mcq__btn {
+  padding-left: 3rem;
+}
+
+.uniqueBtn {
+  border: none;
+  background-color: rgb(0, 117, 255);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 2rem;
+}
+
+.mcq__section__col_1 .showScore {
+  padding: 4rem;
+  width: 100%;
+  margin-top: 20px;
+  background: #cfcfcf;
+  display: none;
+}
+
+.mcq__redirectBtn {
+  background-color: rgb(0, 117, 255);
+  color: #fff;
+  padding: 0.8rem 2rem;
+  font-size: 1.6rem;
+  border: none;
+  text-decoration: none;
+}
+
+.mcq__redirectBtn__holder {
+  display: flex;
+  gap: 3rem;
+  padding-top: 2rem;
+}
+
+.mcq__section__col_1 .showScore h2 {
+  font-size: 4rem;
+}
+
+/********************************/
+/* MEDIA QUERIES FOR EXAM PAGE */
+/********************************/
+@media (max-width: 576px) {
+  .mcq__redirectBtn {
+    font-size: 1rem;
+  }
+  .uniqueBtn {
+    font-size: 1.4rem;
+  }
+  .mcq__section .mcq__section__col_1 h1 {
+    font-size: 1.6rem;
+  }
+  .mcq__section .mcq__section__col_1 ul li label {
+    font-size: 1.3rem;
+  }
+  .mcq__section__col_1 .showScore h2 {
+    font-size: 2rem;
+  }
+  .mcq__section .mcq__section__col_1 {
+    padding: 0rem;
+    box-shadow: none;
+  }
+  .mcq__section {
+    min-height: 30vh;
+    padding-top: 2rem;
+  }
+}
+
+/**************************************/
+/* REAL EXAM CSS TERMS AND CONDITION */
+/*************************************/
+.hidden__row {
+  display: none;
+}
+
+.Terms__and__condition__row {
+  padding: 2rem;
+}
+
+.Terms__and__condition__row .time__and__mark {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Terms__and__condition__row .time__and__mark p {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.Terms__and__condition__row h3 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.Terms__and__condition__row p {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.Terms__and__condition__row ol {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.Terms__and__condition__row ol li {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.Terms__and__condition__row ol li ol {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.romanTermsAndConditions {
+  padding-top: 1rem;
+}
+
+/*****************************************************/
+/* REAL EXAM CSS TERMS AND CONDITION MEDIA QUERIES */
+/****************************************************/
+
+@media (max-width: 576px) {
+  .Terms__and__condition__row .time__and__mark {
+    flex-direction: column;
+  }
+}

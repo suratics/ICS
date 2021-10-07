@@ -1,0 +1,91 @@
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICS &mdash; FREE EXAM</title>
+
+    <!-- Bootstrap CSS Link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom CSS link -->
+    <link rel="stylesheet" href="./css/exam.css" />
+
+  </head>
+
+  <body>
+
+    <section class="mcq__section">
+      <div class="container">
+        <div class="row">
+          <div
+            class="col col-sm-12 col-md-12 col-lg-10 col-xl-8 mx-auto mcq__section__col_1"
+          >
+            <h1>Q<span id="QuestionCount">1</span>. &nbsp;<span
+                class="question"
+              ></span>
+            </h1>
+            <ul>
+              <li>
+                <input type="radio" name="answer" id="A" class="answer" />
+                <label for="A" id="option1"></label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="B" class="answer" />
+                <label for="B" id="option2"></label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="C" class="answer" />
+                <label for="C" id="option3"></label>
+              </li>
+
+              <li>
+                <input type="radio" name="answer" id="D" class="answer" />
+                <label for="D" id="option4"></label>
+              </li>
+            </ul>
+
+            <div class="submit__mcq__btn">
+              <button id="submit" class="uniqueBtn">Submit</button>
+            </div>
+
+            <div class="showScore">
+              <div class="show__score__inner">
+                <h2>Your Score
+                  <span class="my__score">0</span>/<span
+                    class="total__questions"
+                  >0</span>
+                </h2>
+                <div class="mcq__redirectBtn__holder">
+                  <a href="/freeexam" class="mcq__redirectBtn playAgain">Try
+                    Once More</a>
+                  <a href="/exam" class="mcq__redirectBtn">Start More Quiz</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS Link -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Custom JS -->
+    <script src="./js/freeexam.js"></script>
+  </body>
+
+</html>

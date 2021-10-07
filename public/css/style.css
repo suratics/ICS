@@ -1006,3 +1006,197 @@ p {
   text-align: center;
   line-height: 1.5;
 }
+
+/**********************/
+/* SIGN-UP PAGE CSS */
+/*********************/
+.signUp__Area {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signUp__Area .signUp__Area__col__1 {
+  padding: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 0.4rem;
+  background-color: #fff;
+}
+
+.signUp__Area .signUp__Area__col__1 h2 {
+  letter-spacing: -1px;
+  font-size: 4rem;
+  font-weight: 600;
+  font-family: "Lato";
+  color: var(--text-color);
+}
+
+.signUp__Area .signUp__Area__col__1__first__inner_DIV p {
+  color: #868e96;
+  font-size: 600;
+  font-family: "Lato";
+  font-size: 1.6rem;
+}
+
+.signUp__Area .signUp__Area__col__1__first__inner_DIV {
+  margin-bottom: 2rem;
+}
+
+.signUp__Area .signUp__Area__col__1 form {
+  width: 100%;
+}
+
+.signUp__Area .signUp__Area__col__1 .sign__up__form__items {
+  width: 100%;
+}
+.signUp__Area .signUp__Area__col__1 .sign__up__form__items input {
+  width: 100%;
+}
+
+.signUp__Area .signUp__Area__col__1 .sign___Up__div__area__1 input {
+  width: 48%;
+}
+
+.signUp__Area .signUp__Area__col__1 .sign__up__form__items input,
+.signUp__Area .signUp__Area__col__1 .sign___Up__div__area__1 input {
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
+  background-color: #f1f3f5;
+  border-radius: 0.3rem;
+}
+
+.signUp__Area .signUp__Area__col__1 .sign__up__form__Lastitems input {
+  margin-bottom: 0;
+}
+
+.signUp__Area .signUp__Area__col__1 .sign__up__form__items input::placeholder,
+.signUp__Area
+  .signUp__Area__col__1
+  .sign___Up__div__area__1
+  input::placeholder {
+  color: #868e96;
+}
+
+.signUp__Area .signUp__Area__col__1 .sign___Up__div__area__1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.signUp__Area .signUp__Area__col__1 .signUp__terms__and__condition__container {
+  display: flex;
+  gap: 0.7rem;
+  align-items: center;
+  padding: 0.5rem 0;
+}
+
+.signUp__Area
+  .signUp__Area__col__1
+  .signUp__terms__and__condition__container
+  p {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  color: #868e96;
+}
+
+.signUp__Area
+  .signUp__Area__col__1
+  .signUp__terms__and__condition__container
+  p
+  a {
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.signUp__Area .signUp__Area__col__1 .signup___BTN {
+  border: none;
+  background-color: #339af0;
+  color: #fff;
+  font-size: 2rem;
+  padding: 0.8rem 2.4rem;
+  border-radius: 0.2rem;
+}
+
+.signUp__Area .signUp__lastPara {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+.signUp__Area .signUp__lastPara a {
+  color: #fff;
+}
+
+.signUp__Area .SignUp____btns {
+  display: flex;
+  justify-content: space-between;
+}
+
+/************************/
+/* RESET PASSWORD PAGE */
+/***********************/
+
+.forgotPassword__section {
+  min-height: 100vh;
+  padding: 8rem 0;
+  width: 100%;
+  background-color: var(--Main-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgotPassword__section__col__1 {
+  padding: 4rem;
+  background-color: #fcf9f9;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.1);
+  border-radius: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.forgotPassword__section__col__1 form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.forgotPassword__section__col__1 form input {
+  padding: 1rem 1.5rem;
+  margin-bottom: 2rem;
+  font-size: 1.6rem;
+  outline: none;
+  border: none;
+  border-radius: 0.3rem;
+  min-width: 65%;
+}
+
+.forgotPassword__section__col__1 form label {
+  font-size: 1.4rem;
+  min-width: 30%;
+  font-weight: 600;
+  color: crimson;
+  text-transform: uppercase;
+}
+
+.forgotPassword__section__col__1 form button {
+  font-size: 2rem;
+  padding: 0.8rem 1.6rem;
+  font-weight: 600;
+  background-color: crimson;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.forgotPassword__section__col__1 h1 {
+  color: crimson;
+  font-size: 3rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+}
