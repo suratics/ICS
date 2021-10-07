@@ -19,7 +19,7 @@ const getRandomNumber = (min, max) => {
 
 //LOADING AND WORKING WITH THE QUESTIONS
 const getAllQuestions = async function () {
-  const res = await fetch("http://127.0.0.1:3000/questions/mcq/api");
+  const res = await fetch("https://suratics.herokuapp.com/questions/mcq/api");
   const QueDB = await res.json();
 
   let QuestionCount = getRandomNumber(0, 40);
