@@ -26,7 +26,7 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
-app.get("/exam", auth, (req, res) => {
+app.get("/exam" , (req, res) => {
   res.render("exam");
 });
 

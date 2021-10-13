@@ -24,7 +24,7 @@ const getRandomNumber = (min, max) => {
 };
 
 
-const Domain = "https://suratics.herokuapp.com/";
+const Domain = "https://suratics.herokuapp.com";
 
 const getAccountancyQuestionsLoaded = async function () {
   try {
