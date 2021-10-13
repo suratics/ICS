@@ -23,11 +23,11 @@ app.use(cookiesParser());
 
 //ALL THE GET REQUEST
 app.get("/", (req, res) => {
-  res.render("signup");
+  res.render("index");
 });
 
 app.get("/exam", auth, (req, res) => {
-  res.render("about");
+  res.render("exam");
 });
 
 app.get("/freeexam", (req, res) => {
@@ -46,8 +46,8 @@ app.get("/forgotpassword", (req, res) => {
   res.render("forgotpassword");
 });
 
-app.get("/home", (req, res) => {
-  res.render("index");
+app.get("/signup", (req, res) => {
+  res.render("signup");
 });
 
 app.get("/services", (req, res) => {
@@ -79,7 +79,7 @@ app.get("/successful", (req, res) => {
 });
 
 //ALL THE POST REQUEST
-app.post("/", async (req, res) => {
+app.post("/signup", async (req, res) => {
   try {
     const password = req.body.password;
     const cpassword = req.body.cpassword;
@@ -215,6 +215,17 @@ app.get("/questions/mcq/api", async (req, res) => {
   try {
     const AllMcq = await McqModel.find();
     res.send(AllMcq);
+  } catch (error) {
+    res.status(400).send(error);
+  }
+});
+
+app.get("/questions/mcq/api/free", async (req, res) => {
+  try {
+    const FreeMcq = await McqModel.find({
+      subject: "free",
+    });
+    res.send(FreeMcq);
   } catch (error) {
     res.status(400).send(error);
   }

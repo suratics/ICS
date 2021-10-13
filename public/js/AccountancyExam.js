@@ -23,47 +23,50 @@ const getRandomNumber = (min, max) => {
   return randomNum;
 };
 
+
+const Domain = "https://suratics.herokuapp.com/";
+
 const getAccountancyQuestionsLoaded = async function () {
   try {
     //PART -> 1 SECTION A QUESTIONS (1 to 18)
     const response1 = await fetch(
-      "https://suratics.herokuapp.com/questions/mcq/api/accountancy/part1/sectiona"
+      `${Domain}/questions/mcq/api/accountancy/part1/sectiona`
     );
     const data1 = await response1.json();
 
     //PART -> 1 SECTION B QUESTIONS (19 to 36)
     const response2 = await fetch(
-      "https://suratics.herokuapp.com/questions/mcq/api/accountancy/part1/sectionb"
+      `${Domain}/questions/mcq/api/accountancy/part1/sectionb`
     );
     const data2 = await response2.json();
 
     //PART -> 1 SECTION C QUESTIONS (37 to 41)
     const response3 = await fetch(
-      "https://suratics.herokuapp.com/questions/mcq/api/accountancy/part1/sectionc"
+      `${Domain}/questions/mcq/api/accountancy/part1/sectionc`
     );
     const data3 = await response3.json();
 
     //PART -> 2 SECTION A QUESTIONS (42 to 48)
     const response4 = await fetch(
-      "https://suratics.herokuapp.com/questions/mcq/api/accountancy/part2/sectiona"
+      `${Domain}/questions/mcq/api/accountancy/part2/sectiona`
     );
     const data4 = await response4.json();
 
     //PART -> 2 SECTION B QUESTIONS (49 to 55)
     const response5 = await fetch(
-      "https://suratics.herokuapp.com/questions/mcq/api/accountancy/part2/sectionb"
+      `${Domain}/questions/mcq/api/accountancy/part2/sectionb`
     );
     const data5 = await response5.json();
 
     //PART -> 3 SECTION A QUESTIONS (56 to 62)
     const response6 = await fetch(
-      "https://suratics.herokuapp.com/questions/mcq/api/accountancy/part3/sectiona"
+      `${Domain}/questions/mcq/api/accountancy/part3/sectiona`
     );
     const data6 = await response6.json();
 
     //PART -> 3 SECTION B QUESTIONS (63 to 69)
     const response7 = await fetch(
-      "https://suratics.herokuapp.com/questions/mcq/api/accountancy/part3/sectionb"
+      `${Domain}/questions/mcq/api/accountancy/part3/sectionb`
     );
     const data7 = await response7.json();
 

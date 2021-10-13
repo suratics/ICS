@@ -192,3 +192,31 @@ body {
     flex-direction: column;
   }
 }
+
+/**********************/
+/* EXAM PAGE CSS */
+/**********************/
+.Exam__select {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Exam__select .Exam__select_col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
+.Exam__select .Exam__select_col a {
+  font-size: 2rem;
+  padding: 0.8rem 1.6rem;
+  font-weight: 600;
+  background-color: crimson;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+}

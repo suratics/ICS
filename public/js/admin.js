@@ -7,6 +7,8 @@ const adminPannelPasswordSection = document.querySelector(
 const AdminPannelInputSection = document.querySelector(
   ".admin__pannel__Input__section "
 );
+
+//REMOVE THE CODE WHEN ALL THE QUESTIONS HAVE BEEN UPLOADED
 adminPannelPasswordSection.style.display = "none";
 AdminPannelInputSection.style.display = "block";
 

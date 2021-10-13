@@ -22,7 +22,7 @@ const getAllQuestions = async function () {
   const res = await fetch("https://suratics.herokuapp.com/questions/mcq/api");
   const QueDB = await res.json();
 
-  let QuestionCount = getRandomNumber(0, 40);
+  let QuestionCount = getRandomNumber(0, 70);
   let QuestionNumm = 0;
   let score = 0;
   let Questionlimit = 20;
